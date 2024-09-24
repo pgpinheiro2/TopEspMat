@@ -3,7 +3,7 @@ title: "Tópicos Especiais em Matemática"
 subtitle: "Curso de Matemática"
 author: "Paulo Guilherme Pinheiro dos Santos"
 institute: "Universidade do Estado do Amapá - UEAP"
-date: "23/09/2024 a 01/02/2025 (atualizado em: `r format(Sys.Date(), '%d/%m/%Y')`)"
+date: "23/09/2024 a 29/01/2025 (atualizado em: `r format(Sys.Date(), '%d/%m/%Y')`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -13,7 +13,8 @@ output:
       countIncrementalSlides: false
 ---
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+background-image: url(https://upload.wikimedia.org/wikipedia/pt/b/be/Bras%C3%A3o_UEAP.png)
+background-size: 30%
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -21,17 +22,64 @@ options(htmltools.dir.version = FALSE)
 
 ???
 
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+Crédito da imagem: [Wikipedia](https://pt.wikipedia.org)
 
 ---
 # Apresentações
 
 - Plano de Curso
 
-- Ementa
+- Ementa: PPC
+
+- Repositórios:
+    - Pasta compartilhada:
+    
+    - Slides: <https://pgpinheiro2.github.io/TopEspMat/TopEspMat.html>
 
 - Conhecendo a turma
 
 ---
-#
+class: inverse, middle, center
+# Estatística, Ciência de Dados e Megadados
+
+---
+# Introdução
+
+---
+# Paradigma Estatístico
+
+## Dado, Modelo e Resíduo
+
+$$ Dado = Modelo + Resíduo $$
+```{r dmr, fig.height=4, dev='svg', echo=FALSE, fig.align='center'}
+dados <- (datasets::cars)
+library(ggplot2)
+dados |> 
+  ggplot(mapping = aes(x = speed, y = dist))+
+  geom_point()+
+  labs(x = "Velocidade", y = "Distância de parada")
+```
+
+---
+# Paradigma Estatístico
+## Dado, Modelo e Resíduo
+
+$$ Dado = Modelo + Resíduo $$
+```{r reg1, fig.height=4, dev='svg', echo=FALSE, fig.align='center'}
+dados |> 
+  ggplot(mapping = aes(x = speed, y = dist))+
+  geom_point()+
+  labs(x = "Velocidade", y = "Distância de parada")+
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE)
+```
+
+---
+# Exemplo frequentista
+$$\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$$
+
+---
+background-image: url(https://images.squarespace-cdn.com/content/v1/5150aec6e4b0e340ec52710a/1364352051365-HZAS3CLBF7ABLE3F5OBY/Data_Science_VD.png)
+# Ciência de Dados (*Data Science*)
+
+
 
