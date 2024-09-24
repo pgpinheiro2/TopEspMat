@@ -1,0 +1,37 @@
+---
+title: "Tópicos Especiais em Matemática"
+subtitle: "Curso de Matemática"
+author: "Paulo Guilherme Pinheiro dos Santos"
+institute: "Universidade do Estado do Amapá - UEAP"
+date: "23/09/2024 a 01/02/2025 (atualizado em: `r format(Sys.Date(), '%d/%m/%Y')`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+???
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+
+---
+class: center, middle
+
+# Apresentações
+
+- Plano de Curso
+
+- Conhecendo a turma
+
+---
+#
+
