@@ -24,11 +24,11 @@ options(htmltools.dir.version = FALSE)
 Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
 
 ---
-class: center, middle
-
 # Apresentações
 
 - Plano de Curso
+
+- Ementa
 
 - Conhecendo a turma
 
