@@ -14,7 +14,7 @@ output:
 ---
 
 background-image: url(https://upload.wikimedia.org/wikipedia/pt/b/be/Bras%C3%A3o_UEAP.png)
-background-size: 30%
+background-size: 25%
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -31,10 +31,12 @@ Crédito da imagem: [Wikipedia](https://pt.wikipedia.org)
 
 - Ementa: PPC
 
-- Repositórios:
+- Repositórios
     - Pasta compartilhada:
     
     - Slides: <https://pgpinheiro2.github.io/TopEspMat/TopEspMat.html>
+
+- Grupo: *Whatsapp* ou *Telegram*
 
 - Conhecendo a turma
 
@@ -44,6 +46,31 @@ class: inverse, middle, center
 
 ---
 # Introdução
+
+- Atualmente os termos **Ciência de Dados (*Data Science*)** e ***Big Data* (Megadados)** ...
+
+    - Glossário de Estatística Inglês-Português [Sociedade Portuguesa de Estatística - Associação Brasileira de Estatística](https://www.spestatistica.pt/glossario)
+
+--
+- 1980: Jeff Wu
+    
+    - *Statistical Data Science* ou *Data Science* no lugar de *Statistics*.
+
+--
+- J. Tukey (1962, 1977): Análise Exploratória de Dados (*Exploratory Data Analysis*).
+    - primeiro a dar ênfase ao que se chama hoje de *Data Science*
+    - tabelas
+    - gráficos
+    - e outros dispositivos para análise preliminar de dados
+    - antes da *Análise Confirmatória* (Inferência Estatística)
+
+
+---
+# Introdução
+
+Chambers (1993), Breiman (2001), Cleveland (1985, 1993, 2001)
+
+- também enfatizaram a preparação, apresentação e descrição dos dados como atividades que devem preceder a modelagem ou a inferência estatística.
 
 ---
 # Paradigma Estatístico
@@ -79,6 +106,7 @@ $$\bar x = \frac{1}{n} \sum_{i=1}^{n} x_i$$
 
 ---
 background-image: url(https://images.squarespace-cdn.com/content/v1/5150aec6e4b0e340ec52710a/1364352051365-HZAS3CLBF7ABLE3F5OBY/Data_Science_VD.png)
+background-position: 50% 70%
 # Ciência de Dados (*Data Science*)
 
 
